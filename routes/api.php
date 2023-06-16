@@ -24,3 +24,8 @@ Route::post('/mahasiswa/create', 'mhsAPIcontroller@create');
 Route::post('/mahasiswa/update/{id}', 'mhsAPIcontroller@update');
 //hapus data
 Route::delete('/mahasiswa/delete/{id}', 'mhsAPIcontroller@delete');
+
+Route::get('/task/read','TaskController@read');
+Route::post('/task/create','TaskController@create');
+Route::post('/task/update/{id}','TaskController@update');
+Route::delete('/task/delete/{id}','TaskController@delete');

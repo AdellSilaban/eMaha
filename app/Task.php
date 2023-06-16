@@ -9,6 +9,6 @@ class Task extends Model
     protected $table ='task';
 
     protected $fillable = [
-        'nama', 'judul_task', 'deskripsi_task',
+        'nama', 'judul_task','deskripsi_task',
     ];
 }
